@@ -11,7 +11,7 @@ public class TestStudent {
         Statement stmt= null; 
         String url="jdbc:postgresql://localhost:5432/bd1";
          String usr="postgres"; 
-         String pwd="0000"; 
+         String pwd="karima12"; 
          try{ c=DriverManager.getConnection(url, usr, pwd); stmt=c.createStatement();
              ResultSet rs=stmt.executeQuery("SELECT * FROM student; "); while (rs.next()) { 
                 int id=rs.getInt("id");
